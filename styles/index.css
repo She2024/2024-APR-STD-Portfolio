@@ -41,6 +41,8 @@ header {
 #nav-items a {
     text-decoration: none;
 }
+
+@media screen and (mi)
 footer{
     background-color: var(--primary-background);
     text-align: center;
@@ -49,6 +51,7 @@ footer{
 .social-media {
     display: flex;
     justify-content: space-around;
+    margin-bottom: 24px;
 }
 .social-media a {
     font-size: 24px;
