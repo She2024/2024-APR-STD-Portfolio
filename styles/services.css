@@ -13,5 +13,13 @@ article{
     margin: 20px 0;
 }
 .services-image {
-    width:400px;
+    width:200px;
+}
+
+.description {
+    background-color: white;
+    border: 1px solid red;
+    
+    grid-column: 2 / 3;
+    grid-row: 2 / -1;
 }
