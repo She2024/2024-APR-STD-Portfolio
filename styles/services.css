@@ -13,7 +13,7 @@ article{
     margin: 20px 0;
 }
 .services-image {
-    width:200px;
+    width:400px;
 }
 
 .description {
@@ -22,4 +22,33 @@ article{
     
     grid-column: 2 / 3;
     grid-row: 2 / -1;
+}
+
+.btn-div{
+text-align: center;
+
+}
+
+.submit {
+    height: 40px;
+    background-color: (--primary-color);
+    border: none;
+    border-radius: 4px;
+    min-width: 120px;
+    font-size: 20px;
+    
+}
+#submit-hover {
+    cursor: pointer;
+    background-color: #ffb6b699;
+
+}
+
+@media screen and  {
+    form-elements {
+        flex-direction: row;
+        justify-content: space-between;
+        width: 70%;
+    }
+    
 }
